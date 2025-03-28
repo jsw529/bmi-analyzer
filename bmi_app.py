@@ -35,7 +35,5 @@ if st.button("분석하기"):
             st.write("**[식습관]** 저당, 고섬유질 식단")
 """
 
-with open(file_path, "w", encoding="utf-8") as f:
-    f.write(streamlit_code)
 
 file_path
